@@ -5,8 +5,8 @@
     --text-dark: #05472A;
     --accent-orange: #BE5103;
     --accent-gold: #e2aa03;
-    --white: #ffffff;
-    --light-gray: #f5f5f5;
+    --duck-egg: #B4CDC7;
+    --brown: #80461B;
 }
 
 * {
@@ -30,7 +30,7 @@ body {
 
 /* ===== NAVIGATION ===== */
 .navbar {
-    background: var(--white);
+    background: var(--duck-egg);
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
@@ -117,7 +117,7 @@ body {
 /* ===== HERO SECTION ===== */
 .hero {
     background: linear-gradient(135deg, var(--text-dark) 0%, rgba(5, 71, 42, 0.8) 100%);
-    color: var(--white);
+    color: var(--duck-egg);
     padding: 100px 20px;
     text-align: center;
 }
@@ -163,7 +163,7 @@ section h3 {
 
 /* ===== WHO WE CATER TO ===== */
 .who-we-cater {
-    background: var(--white);
+    background: var(--duck-egg);
 }
 
 .cater-grid {
@@ -205,7 +205,7 @@ section h3 {
 }
 
 .offering {
-    background: var(--white);
+    background: var(--duck-egg);
     padding: 2rem;
     border-radius: 10px;
     text-align: center;
@@ -219,7 +219,7 @@ section h3 {
 
 /* ===== MENU ===== */
 .menu {
-    background: var(--white);
+    background: var(--duck-egg);
 }
 
 .menu-grid {
@@ -251,7 +251,7 @@ section h3 {
 .hours-table {
     max-width: 500px;
     margin: 2rem auto;
-    background: var(--white);
+    background: var(--duck-egg);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
@@ -280,7 +280,7 @@ section h3 {
 
 /* ===== ABOUT SECTION ===== */
 .about-section {
-    background: var(--white);
+    background: var(--duck-egg);
 }
 
 .section-text {
@@ -307,7 +307,7 @@ section h3 {
 }
 
 .ethos-card {
-    background: var(--white);
+    background: var(--duck-egg);
     padding: 2rem;
     border-radius: 10px;
     text-align: center;
@@ -327,7 +327,7 @@ section h3 {
 
 /* ===== SERVICES ===== */
 .services-section {
-    background: var(--white);
+    background: var(--duck-egg);
 }
 
 .services-grid {
@@ -382,7 +382,7 @@ section h3 {
 
 .gallery-item p {
     background: var(--text-dark);
-    color: var(--white);
+    color: var(--duck-egg);
     padding: 1rem;
     text-align: center;
     font-weight: 500;
@@ -390,7 +390,7 @@ section h3 {
 
 /* ===== CONTACT FORM ===== */
 .contact-form-section {
-    background: var(--white);
+    background: var(--duck-egg);
 }
 
 .contact-form {
@@ -427,14 +427,14 @@ section h3 {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--accent-orange);
-    background: var(--white);
+    background: var(--duck-egg);
 }
 
 .submit-btn {
     width: 100%;
     padding: 1rem;
     background: linear-gradient(135deg, var(--text-dark), var(--accent-orange));
-    color: var(--white);
+    color: var(--duck-egg);
     border: none;
     border-radius: 5px;
     font-size: 1rem;
@@ -468,7 +468,7 @@ section h3 {
 }
 
 .info-box {
-    background: var(--white);
+    background: var(--duck-egg);
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
@@ -503,7 +503,7 @@ section h3 {
 
 /* ===== FAQ ACCORDION ===== */
 .faq-section {
-    background: var(--white);
+    background: var(--duck-egg);
 }
 
 .faq-container {
@@ -550,7 +550,7 @@ section h3 {
 
 .faq-answer {
     padding: 1.5rem;
-    background: var(--white);
+    background: var(--duck-egg);
     color: #555;
     max-height: 0;
     overflow: hidden;
@@ -571,7 +571,7 @@ section h3 {
 
 /* ===== SHOP PRODUCTS ===== */
 .shop-section {
-    background: var(--white);
+    background: var(--duck-egg);
 }
 
 .product-category {
@@ -647,7 +647,7 @@ section h3 {
 .add-to-cart-btn {
     padding: 0.75rem;
     background: linear-gradient(135deg, var(--text-dark), var(--accent-orange));
-    color: var(--white);
+    color: var(--duck-egg);
     border: none;
     border-radius: 5px;
     font-weight: 600;
@@ -674,7 +674,7 @@ section h3 {
 /* ===== FOOTER ===== */
 .footer {
     background: var(--text-dark);
-    color: var(--white);
+    color: var(--duck-egg);
     padding: 2rem 20px;
     margin-top: 4rem;
 }
@@ -697,7 +697,7 @@ section h3 {
 }
 
 .social-links a {
-    color: var(--white);
+    color: var(--duck-egg);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -733,7 +733,7 @@ section h3 {
         right: 0;
         flex-direction: column;
         gap: 0;
-        background: var(--white);
+        background: var(--duck-egg);
         padding: 1rem 0;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     }
