@@ -52,14 +52,14 @@ body {
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: 900;
     color: var(--text-dark);
     letter-spacing: 2px;
 }
 
 .tagline {
-    font-size: 0.65rem;
+    font-size: 1.3rem;
     color: var(--accent-orange);
     letter-spacing: 1.5px;
     font-weight: 600;
