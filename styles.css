@@ -7,6 +7,7 @@
     --accent-gold: #e2aa03;
     --beige: #DDCCA5;
     --brown: #80461B;
+    --divider-offset: 60px;
 }
 
 * {
@@ -136,17 +137,21 @@ body {
 
 /* ===== WAVE DIVIDER ===== */
 .wave-divider {
-    width: 100%;
-    height: 60px;
-    fill: var(--accent-gold);
-    margin: 2rem 0;
-    display: block;
+    position: absolute;
+    top: calc(-1 * var(--divider-offset));
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: var(--accent-gold);
+    clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
+    z-index: -1;
     opacity: 0.8;
 }
 
 /* ===== GENERAL SECTIONS ===== */
 section {
     padding: 60px 20px;
+    position: relative;
 }
 
 section h2 {
@@ -773,6 +778,10 @@ section h3 {
         flex-direction: column;
         text-align: center;
     }
+
+    .wave-divider {
+        clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%);
+    }
 }
 
 @media (max-width: 480px) {
@@ -784,11 +793,11 @@ section h3 {
         font-size: 1.5rem;
     }
 
-    .wave-divider {
-        height: 40px;
-    }
-
     section {
         padding: 40px 15px;
+    }
+
+    .wave-divider {
+        clip-path: polygon(0 0, 100% 60%, 100% 100%, 0 100%);
     }
 }
